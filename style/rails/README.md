@@ -12,7 +12,6 @@ Rails
   attribute name. [Example][order-associations].
 * Order ActiveRecord validations alphabetically by attribute name.
 * Order ActiveRecord associations above ActiveRecord validations.
-* Specify `through` or `dependent` on `has_many` and `has_one` associations.
 * Order controller contents: filters, public methods, private methods.
 * Order i18n translations alphabetically by key name.
 * Order model contents: constants, macros, public methods, private methods.
@@ -34,6 +33,7 @@ Migrations
 
 * Set an empty string as the default constraint for non-required string and text
   fields. [Example][default example].
+* Set an explicit `on_delete` behaviour for foreign keys.
 
 [default example]: migration.rb#L6
 
